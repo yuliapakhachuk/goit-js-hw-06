@@ -10,7 +10,7 @@ const input = document.querySelector("#name-input");
 const output = document.querySelector("#name-output");
 const DEFAULT_NAME = "Anonymous";
 
-input.addEventListener("change", enterName);
+input.addEventListener("input", enterName);
 
 function enterName() {
     const name = input.value;

@@ -14,7 +14,7 @@ const refs = {
 }
 
 console.log(refs.range);
-refs.range.addEventListener("change", fontSizeChange);
+refs.range.addEventListener("input", fontSizeChange);
 
 function fontSizeChange() {
     const selectedOptionValue = refs.range.value;

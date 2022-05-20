@@ -19,7 +19,7 @@
 //Використовуй готову функцію getRandomHexColor для отримання кольору.
 
 // Створи функцію destroyBoxes(), яка очищає вміст div#boxes, у такий спосіб видаляючи всі створені елементи.
-+
+
 // let amount = document.querySelector("input").currentTarget.value;
 // console.log(amount);
 // function createBoxes(amount) { 
